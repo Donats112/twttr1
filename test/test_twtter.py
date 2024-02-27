@@ -1,4 +1,4 @@
-from twtter import shorten
+from ..twtter import shorten
 
 def test_shorties():
     assert shorten("digger") == "dggr"
